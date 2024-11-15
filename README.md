@@ -5,15 +5,18 @@
 
 <h1 align="center"> Comandos más utilizados Git </h1>
 
-# git
-git init
+# git init 
+git init #nombre de folder igual que repositorio#
 git status
-git add -A
-git add archivo.html
+
+git add -A #todo#
+git add archivo.html #o solo un archivo#
 
 git commit -am "comentario"
 
-git remote add origin -gitlink-
+git branch -M main #nuevo branch#
+
+git remote add origin #gitlink#
 
 # comprobando
 git remote
@@ -23,8 +26,5 @@ rpta -> origin
 git push origin master --force
 
 # bajando
-git fetch --gitlink--
-git pull --gitlink--
-
-
-
+git fetch -#gitlink#-
+git pull -#gitlink#-
