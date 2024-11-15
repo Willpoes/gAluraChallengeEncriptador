@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css" />
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="containerGeneral">
+        <div class="containerIngreso">
+            <div class="logo">
+                <img src="logo.png" alt="Portada" width="80" height="50">
+            </div>
+            <div>
+                <input class="textoIngreso" onclick="cambiarMensaje()" placeholder="Ingrese el texto aqui"></input>
+            </div>
+            
+            <div class="botones">
+                
+                <div class="ingresoGuia"><i class="fa fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos</div>
+                <button class="btnencriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btndesencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="containerRespuesta">
+            <img src="ss01.png" alt="Portada" width="330" height="330">
+            <div class="textoRespuesta">Ningún mensaje fue encontrado</div>
+            <div class="textoRespuestaGuia">Ingrese el texto que desees encriptar o desencriptar</div>
+        </div>
+    </div>
+</body>
+
+</html>

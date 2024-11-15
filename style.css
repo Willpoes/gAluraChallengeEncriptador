@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.containerGeneral {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.containerIngreso {
+    color: #851212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20%;
+    justify-content: center;
+    border: none;
+}
+
+.containerRespuesta {
+    background-color: #ffffff;
+    color: #000000;
+    height: 90vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    box-shadow: 0 3px 2px rgba(201, 201, 202, 0.5);
+}
+
+.logo {
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-size: 1.5em;
+    text-align: left;
+    border: 1px solid #F3F5FC;
+    position: absolute;
+    top: 2%;
+    left: 8%;
+    margin: 10px;
+}
+
+.textoIngreso {
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-size: 1.5em;
+    text-align: left;
+    border: 1px solid #F3F5FC;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.textoIngreso::placeholder {
+    color: #0A3871; /* Color del placeholder */
+}
+
+.ingresoGuia{
+    font-size: 0.7em;
+    color: #495057;
+}
+
+.textoRespuesta {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    width: 30vh;
+    color: #343A40;
+}
+
+.textoRespuestaGuia {
+    font-size: 0.8em;
+    width: 40vh;
+    text-align: center;
+    color: #343A40;
+}
+
+.btnencriptar {
+    background-color: #0A3871;
+    border: none;
+    color: white;    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 18px;
+    width: 35vh;
+}
+
+.btndesencriptar {
+    background-color: #D8DFE8;
+    border: none;
+    color: #0A3871;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 18px;
+    width: 35vh;
+}
+
+.botones{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
